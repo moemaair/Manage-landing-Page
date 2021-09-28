@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Haris](https://ibrahim.codes)
+- Website - [Mohamed](https://ibrahim.codes)
 
 - Twitter - [@\codingin254](https://www.twitter.com/codingin254)
 
