@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/hariscs/fem-manage-landing-page)
-- Live Site URL: [Netlify](https://fem-manage.netlify.app/)
+- Solution URL: [GitHub](https://github.com/moemaair/Manage-landing-Page)
+- Live Site URL: [Netlify](https://Manage-landing-Page.netlify.app/)
 
 ## My process
 
@@ -48,7 +48,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Haris](https://ibrahim.codes)
+- Website - [Mohamed](https://ibrahim.codes)
 
 - Twitter - [@\codingin254](https://www.twitter.com/codingin254)
 
