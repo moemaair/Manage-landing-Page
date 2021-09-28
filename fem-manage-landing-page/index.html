@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+			integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+
+		<title>Manage landing page</title>
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<nav class="navbar">
+					<img src="./images/logo.svg" alt="logo" class="logo" />
+
+					<ul class="menu">
+						<li class="menu-list-item">
+							<a href="" class="menu-item">Pricing</a>
+						</li>
+						<li class="menu-list-item">
+							<a href="" class="menu-item">Product</a>
+						</li>
+						<li class="menu-list-item">
+							<a href="" class="menu-item">About Us</a>
+						</li>
+						<li class="menu-list-item">
+							<a href="" class="menu-item">Careers</a>
+						</li>
+						<li class="menu-list-item">
+							<a href="" class="menu-item">Community</a>
+						</li>
+					</ul>
+
+					<a class="hamburger">
+						<span class="bar"></span>
+					</a>
+
+					<a href="/" class="btn btn-nav cta btn-primary">Get Started</a>
+				</nav>
+
+				<!-- banner area -->
+				<div class="banner">
+					<div class="banner-info">
+						<img
+							src="./images/illustration-intro.svg"
+							alt=""
+							class="banner-img"
+						/>
+
+						<div class="banner-flex">
+							<h1 class="banner-title title">
+								Bring everyone together to build better products.
+							</h1>
+							<p class="banner-text">
+								Manage makes it simple for software teams to plan day-to-day
+								tasks while keeping the larger team goals in view.
+							</p>
+							<a href="/" class="btn cta btn-primary">Get Started</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- manage services -->
+		<section class="services">
+			<div class="container flex">
+				<div class="services-info">
+					<h2 class="services-info-title title">
+						What’s different about Manage?
+					</h2>
+					<p class="services-info-text">
+						Manage provides all the functionality your team needs, without the
+						complexity. Our software is tailor-made for modern digital product
+						teams.
+					</p>
+				</div>
+
+				<div class="services-details">
+					<!-- card one -->
+					<div class="services-details-card">
+						<div class="services-bar">
+							<span class="services-details-number">01</span>
+							<h3 class="services-details-title title">
+								Track company-wide progress
+							</h3>
+						</div>
+
+						<p class="services-details-text">
+							See how your day-to-day tasks fit into the wider vision. Go from
+							tracking progress at the milestone level all the way done to the
+							smallest of details. Never lose sight of the bigger picture again.
+						</p>
+					</div>
+
+					<!-- card two -->
+					<div class="services-details-card">
+						<div class="services-bar">
+							<span class="services-details-number">02</span>
+							<h3 class="services-details-title title">
+								Advanced built-in reports
+							</h3>
+						</div>
+
+						<p class="services-details-text">
+							Set internal delivery estimates and track progress toward company
+							goals. Our customizable dashboard helps you build out the reports
+							you need to keep key stakeholders informed.
+						</p>
+					</div>
+
+					<!-- card three -->
+					<div class="services-details-card">
+						<div class="services-bar">
+							<span class="services-details-number">03</span>
+							<h3 class="services-details-title title">
+								Everything you need in one place
+							</h3>
+						</div>
+
+						<p class="services-details-text">
+							Stop jumping from one service to another to communicate, store
+							files, track tasks and share documents. Manage offers an
+							all-in-one team productivity solution.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- testimonials section -->
+		<section class="testimonials">
+			<div class="wrapPerson" id="wrapSlider">
+				<h2>What they’ve said</h2>
+				<div class="wrapSlider" id="sliderScroll">
+					<div class="wrapPersonSlider" id="slider">
+						<div
+							class="itemSlider itemSlider1"
+							id="itemSlider1"
+							onclick="selectSlider(1)"
+						>
+							<img src="images/avatar-anisha.png" alt="avatar anisha" />
+							<h3>Anisha Li</h3>
+							<p class="slider-text">
+								“Manage has supercharged our team’s workflow. The ability to
+								maintain visibility on larger milestones at all times keeps
+								everyone motivated.”
+							</p>
+						</div>
+
+						<div
+							class="itemSlider itemSlider2"
+							id="itemSlider2"
+							onclick="selectSlider(2)"
+						>
+							<img src="images/avatar-ali.png" alt="avatar ali" />
+							<h3>Ali Bravo</h3>
+							<p class="slider-text">
+								“We have been able to cancel so many other subscriptions since
+								using Manage. There is no more cross-channel confusion and
+								everyone is much more focused.”
+							</p>
+						</div>
+
+						<div
+							class="itemSlider itemSlider3"
+							id="itemSlider3"
+							onclick="selectSlider(3)"
+						>
+							<img src="images/avatar-richard.png" alt="avatar richard" />
+							<h3>Richard Watts</h3>
+							<p class="slider-text">
+								“Manage allows us to provide structure and process. It keeps us
+								organized and focused. I can’t stop recommending them to
+								everyone I talk to!”
+							</p>
+						</div>
+
+						<div
+							class="itemSlider itemSlider4"
+							id="itemSlider4"
+							onclick="selectSlider(4)"
+						>
+							<img src="images/avatar-shanai.png" alt="avatar shanai" />
+							<h3>Shanai Gough</h3>
+							<p class="slider-text">
+								“Their software allows us to track, manage and collaborate on
+								our projects from anywhere. It keeps the whole team in-sync
+								without being intrusive.”
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="btnSlider">
+					<div class="btn btnActive" id="btn1"></div>
+					<div class="btn" id="btn2"></div>
+					<div class="btn" id="btn3"></div>
+					<div class="btn" id="btn4"></div>
+				</div>
+				<a href="#">Get Started</a>
+			</div>
+		</section>
+
+		<!-- call to action section -->
+		<section class="cta-section">
+			<div class="container flex">
+				<h2 class="cta-title">Simplify how your team works today.</h2>
+				<a href="" class="btn cta btn-secondary">Get Started</a>
+			</div>
+		</section>
+
+		<!-- footer -->
+		<footer class="footer">
+			<div class="container container-footer grid">
+				<form class="footer-form">
+					<input
+						type="text"
+						class="form-input"
+						placeholder="Updates in your inbox…"
+					/>
+					<button class="form-btn cta">Go</button>
+				</form>
+
+				<div class="footer-links-group">
+					<div class="footer-links links-left">
+						<a href="" class="footer-link">Home</a>
+						<a href="" class="footer-link">Pricing</a>
+						<a href="" class="footer-link">Products</a>
+						<a href="" class="footer-link">About Us</a>
+					</div>
+
+					<div class="footer-links links-right">
+						<a href="" class="footer-link">Careers</a>
+						<a href="" class="footer-link">Community</a>
+						<a href="" class="footer-link">Privacy Policy</a>
+					</div>
+				</div>
+
+				<div class="footer-icons">
+					<a href="#" class="icon">
+						<i class="fab fa-facebook fa-2x"></i>
+					</a>
+					<a href="#" class="icon">
+						<i class="fab fa-youtube fa-2x"></i>
+					</a>
+					<a href="#" class="icon">
+						<i class="fab fa-twitter fa-2x"></i>
+					</a>
+					<a href="#" class="icon">
+						<i class="fab fa-pinterest fa-2x"></i>
+					</a>
+					<a href="#" class="icon"><i class="fab fa-instagram fa-2x"></i> </a>
+				</div>
+
+				<img src="./images/footer-logo.svg" alt="logo" class="footer-logo" />
+
+				<p class="footer-copyright">Copyright 2020. All Rights Reserved</p>
+			</div>
+		</footer>
+
+		<div class="attribution">
+			Challenge by
+		
+			>. Coded by <a href="https://twitter.com/codingin254">Mohamed</a>
+		</div>
+
+		<script src="script/app.js"></script>
+	</body>
+</html>
